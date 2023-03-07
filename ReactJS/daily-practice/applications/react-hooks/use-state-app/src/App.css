@@ -1,0 +1,41 @@
+.colorizer, .counter-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.colorizer .box{
+  width: 13rem;
+  height: 13rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid #220d97;
+  border-radius: 1rem;
+  font-size: 2rem;
+}
+
+.colorizer .box > p {
+  text-align: center;
+  padding: 3rem;
+}
+
+.colorizer button, .counter-box button {
+  cursor: pointer;
+  height: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  background-color: #aba9b1;
+  font-size: 1rem;
+}
+
+.counter-box > div {
+  width: 13rem;
+  height: 13rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid red;
+  border-radius: 1rem;
+  font-size: 8rem;
+  text-align: center;
+}
